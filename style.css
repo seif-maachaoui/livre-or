@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(166, 119, 85);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(37, 36, 36, 0.902);
+}
+
+header img {
+    width: 100px;
+}
+
+nav {
+    width: 80%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 1% 5%;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(241, 124, 40);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(59, 59, 238);
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(67, 65, 65);
+}
+
+article h1, h2, p {
+    text-align: center;
+    margin: 2%;
+}
+
+article button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(23, 23, 22);
+    border-radius: 10px;
+    border: 1px none;
+    padding: 1% 1%;
+}
+
+article a {
+    margin: 3%;
+    color: white;
+    width: 120px;
+    padding: 1% 1%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+form {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 3%;
+    margin: 5%;
+}
+
+form label {
+    text-align: center;
+    font-size: 13px;
+    margin: 5%;
+    padding: 5%;
+}
+
+/* Design des label, input et boutons dans les formulaires */
+form input {
+    width: 140px;
+    margin: 5%;
+    color: black;
+}
+
+.add_form label {
+    padding: 1%;
+}
+
+.add_form textarea {
+    margin: 3%;
+    width: 250px;
+    height: 150px;
+    color: black;
+}
+
+.add_form button {
+    margin: 5%;
+}
+
+.submit-btn {
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px none;
+    background-color: orange;
+}
+
+.goldenbook {
+    width: 100%;
+    background-color: rgb(226, 177, 87);
+}
+
+.add_comment {
+    margin: 3%;
+    background-color: black;
+    color: white;
+    width: 120px;
+    padding: 1% 1%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.comments-container {
+    width: 100%;
+    background-color: rgb(146, 146, 231);
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    border-bottom: 1px solid black;
+}
+
+.comment p {
+    padding: 0 5%;
+    display: inline;
+    font-size: 13px;
+    color: black;
+}
+
+/* Design du footer de la page */
+footer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(37, 36, 36, 0.902);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h6 {
+    padding: 2%;
+    text-align: center;
+}
